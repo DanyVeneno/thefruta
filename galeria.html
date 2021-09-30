@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta
+			name="author"
+			content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+		/>
+		<meta name="generator" content="Hugo 0.79.0" />
+		<title>Galeria | Tu sitio web</title>
+
+		<!--<link
+			rel="canonical"
+			href="https://getbootstrap.com/docs/5.0/examples/album/"
+		/>-->
+
+		<!-- Bootstrap core CSS -->
+		<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="imagenes/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="imagenes/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="imagenes/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="imagenes/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="imagenes/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="msapplication-TileColor" content="#efefef" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
+
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">Bienvenidos</h4>
+							<p class="text-muted">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								quos sequi voluptas magnam beatae asperiores quae, blanditiis
+								doloremque id, odit repellendus accusantium qui reiciendis
+								eveniet deserunt minus ipsam voluptatum error?
+							</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Menu</h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="index.html" class="text-white"
+										><i class="bi bi-facebook"></i>Inicio</a
+									>
+								</li>
+								<li>
+									<a href="servicios.html" class="text-white"> Servicios </a>
+								</li>
+								<li>
+									<a href="contacto.html" class="text-white"> Contacto </a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#0"
+										><svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											class="bi bi-phone-vibrate"
+											viewBox="0 0 16 16"
+										>
+											<path
+												fill-rule="evenodd"
+												d="M10 3H6a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"
+											/>
+											<path
+												fill-rule="evenodd"
+												d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z"
+											/>
+										</svg>
+										<i class="bi bi-phone-vibrate"> 55 52-45 78-56</i></a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href=""
+										><i class="bi bi-chat">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-chat"
+												viewBox="0 0 16 16"
+											>
+												<path
+													fill-rule="evenodd"
+													d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
+												/>
+											</svg>
+											WhatsApp
+										</i></a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark shadow-sm">
+				<div class="container">
+					<a href="portada.html" class="navbar-brand d-flex align-items-center">
+						<img src="imagenes/logofruteria.png" alt="" />
+						<strong></strong>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarHeader"
+						aria-controls="navbarHeader"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="py-5 text-center container">
+				<div class="row py-lg-5">
+					<div class="col-lg-6 col-md-8 mx-auto">
+						<h1 class="fw-light">
+							ESTA ES NUESTRA GALERIA DE PRODUCTOS Y/O SERVICIOS.
+						</h1>
+						<p class="lead text-muted">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+							quos sequi voluptas magnam beatae asperiores quae, blanditiis
+							doloremque id, odit repellendus accusantium qui reiciendis eveniet
+							deserunt minus ipsam voluptatum error?
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<div class="album py-5 bg-light">
+				<div class="container">
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr1.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr2.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr3.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/p-01.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/p-02.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/p-03.png" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/v-23.png" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/V-24.png" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/V-25.png" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr1.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr2.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card shadow-sm">
+								<img src="imagenes/fr3.jpg" alt="" />
+
+								<div class="card-body">
+									<p class="card-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Placeat quos sequi voluptas magnam beatae asperiores quae,
+										blanditiis doloremque id, odit repellendus accusantium qui
+										reiciendis eveniet deserunt minus ipsam voluptatum error?.
+									</p>
+									<div
+										class="d-flex justify-content-between align-items-center"
+									></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="text-muted py-5">
+			<div class="container">
+				<p class="float-end mb-1">
+					<a href="#">Regresar al inicio</a>
+				</p>
+				<p class="mb-1">Copyright 2021 &copy; lafruteria by YEHIIBHII.</p>
+				<!--<p class="mb-0">
+					New to Bootstrap? <a href="/">Visit the homepage</a> or read our
+					<a href="../getting-started/introduction/">getting started guide</a>.
+				</p>-->
+			</div>
+		</footer>
+
+		<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
