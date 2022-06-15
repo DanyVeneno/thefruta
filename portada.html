@@ -4,20 +4,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="" />
-		<meta
-			name="author"
-			content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-		/>
-		<meta name="generator" content="Hugo 0.79.0" />
+		<meta name="author" content="Daniel Vallejo" />
 		<title>Esté Puede ser tu sitio web</title>
-
 		<link
-			rel="canonical"
-			href="https://getbootstrap.com/docs/5.0/examples/carousel/"
-		/>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
-		<!-- Bootstrap core CSS -->
-		<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+		
 
 		<link
 			rel="apple-touch-icon"
@@ -36,19 +30,29 @@
 			sizes="16x16"
 			href="imagenes/favicon-16x16.png"
 		/>
-		<link rel="manifest" href="imagenes/site.webmanifest" />
-		<link
-			rel="mask-icon"
-			href="imagenes/safari-pinned-tab.svg"
-			color="#5bbad5"
-		/>
-		<meta name="msapplication-TileColor" content="#efefef" />
-		<meta name="theme-color" content="#ffffff" />
+		
 
 		<style>
 			.portada{
+				width: 100%;
+				height: 100vh;
+				max-height: 100%;
+				background-image: url(imagenes/pback.jpg);
 				background-size:cover;
+				background-repeat: no-repeat;
 				background-position: center;
+				background-attachment: fixed;
+				
+								
+			}
+			
+			.logo{
+				width:15%;
+				display: inline-block;
+                margin: 10rem 10rem 10rem;
+
+               animation: zoomInRight; /* referring directly to the animation's @keyframe declaration */
+               animation-duration: 2s; /* don't forget to set a duration! */
 			}
 
 			.bd-placeholder-img {
@@ -66,104 +70,19 @@
 			}
 		</style>
 
-		<!-- Custom styles for this template -->
-		<link href="carousel.css" rel="stylesheet" />
+		
+		
 	</head>
 	<body>
-		<!--<header>
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="portada.html"
-						><img src="imagenes/logofruteria.png" alt="" width="50"
-					/></a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarCollapse"
-						aria-controls="navbarCollapse"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarCollapse">
-						<ul class="navbar-nav me-auto mb-2 mb-md-0">
-							<li class="nav-item active">
-								<a class="nav-link" aria-current="page" href="index.html"
-									>QUIENES SOMOS</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="productos.html">PRODUCTOS</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="servicios.html">SERVICIOS</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="galeria.html">GALERIA</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contacto.html">CONTACTO</a>
-							</li>
-							<li class="nav-item">
-								<a
-									class="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true"
-									>Disabled</a
-								>
-              </li>
-
-							<li class="nav-item justify-content-center">
-								<a class="nav-link" href="#">Active</a>
-							</li>
-							<li class="nav-item justify-content-end">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item justify-content-end">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item justify-content-end">
-								<a
-									class="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true"
-									>Disabled</a
-								>
-							</li>
-						</ul>
-						<form class="d-flex">
-							<input
-								class="form-control me-2"
-								type="search"
-								placeholder="Search"
-								aria-label="Search"
-							/>
-							<button class="btn btn-outline-success" type="submit">
-								Search
-							</button>
-						</form>
-					</div>
-				</div>
-			</nav>
-		</header>-->
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<br />
-		<div class="container-fluid">
+		
+		<div class="portada">
+			
 			<a href="index.html"
-				><img src="imagenes/portadafrontal.jpg" class="img-fluid" id="portada" alt=""
+				><img src="imagenes/logofruteria.png" class="logo animate__animated animate__zoomInRight"  alt="" width="15%"
 			/></a>
+		
 		</div>
 
-		<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+		
 	</body>
 </html>
